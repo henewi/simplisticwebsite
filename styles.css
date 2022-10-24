@@ -11,9 +11,9 @@
 }
 :root.light {
     --border-btn: none;
-    --color-base-bg: rgb(255, 255, 255);
+    --color-base-bg: rgb(254, 255, 203);
     --color-base-text: rgb(0, 0, 0);
-    --color-btn-bg: rgb(255, 255, 255);
+    --color-btn-bg: rgb(254, 255, 203);
 }
 
 .body,
@@ -24,6 +24,7 @@
 body {
     background-color: var(--color-base-bg);
     padding: 10px;
+    font-family: lovely;
 }
 
 .container {
@@ -39,8 +40,12 @@ p {
 .theme-toggle {
     background-color: var(--color-btn-bg);
     border: none;
-    font-size: 1rem;
+    font-size: 4rem;
     padding: none;
+    font-family: lovely;
+    position: absolute;
+    left: 48%;
+    top: 43%;
 }
 
 .theme-toggle:hover {
