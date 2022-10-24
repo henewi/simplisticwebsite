@@ -1,0 +1,24 @@
+:root.dark {
+    --border-btn: none;
+    --color-base-bg: rgb(0, 0, 0);
+    --color-base-text: rgb(255, 255, 255);
+    --color-btn-bg: rgb(0,0,0);
+}
+:root.light {
+    --border-btn: none;
+    --color-base-bg: rgb(255, 255, 255);
+    --color-base-text: rgb(0, 0, 0);
+    --color-btn-bg: rgb(255, 255, 255);
+}
+
+.body,
+.theme-toggle {
+    color: var(--color-base-text);
+}
+
+body {
+    background-color: var(--color-base-bg);
+    padding: 10px;
+}
+
+.container
