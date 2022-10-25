@@ -215,3 +215,83 @@
     margin: 7px;
     text-align: center;
 }
+
+/* The College Dropout */
+
+.thec {
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.thec:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.thec:hover .theclogo {
+    opacity: 1;
+}
+
+.theclogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(247, 189, 0);
+    width: clamp(7.5vh,150px,16.5vh);
+}
+
+.theclogo:hover {
+    cursor: pointer;
+}
+
+.thectext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* Watch the throne */
+
+.watch {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.watch:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.watch:hover .watchlogo {
+    opacity: 1;
+}
+
+.watchlogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(255, 229, 145);
+    width: clamp(10.5vh,210px,20.5vh);
+}
+
+.watchlogo:hover {
+    cursor: pointer;
+}
+
+.watchtext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
