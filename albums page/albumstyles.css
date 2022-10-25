@@ -11,12 +11,12 @@
 .albums {
     color: white;
     background-color: none;
-    font-size: clamp(2vh,1rem,4vh);
+    font-size: clamp(2vh,1.2rem,4vh);
 }
 
-/* albums section */ 
+/* Albums Section */ 
 
-/* mbdtf */
+/* My Beautiful Dark Twisted Fantasy */
 
 .my {
     position: absolute;
@@ -27,7 +27,7 @@
     justify-content: center;
     color: white;
     transition: all 0.2s ease-in;
-    width: clamp(2vh,200px,90vh);
+    width: clamp(16vh,200px,20vh);
 }
 
 .my:hover {
@@ -42,7 +42,7 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    width: clamp(2vh,200px,90vh);
+    width: clamp(10vh,200px,20vh);
     box-shadow: 0px 0px 50px rgb(255, 0, 43);
 }
 
@@ -51,6 +51,126 @@
 }
 
 .mytext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* 808's & Heartbreak */
+
+.eight {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.eight:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.eight:hover .eightlogo {
+    opacity: 1;
+}
+
+.eightlogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(201, 201, 201);
+    width: clamp(9.5vh,190px,19vh);
+}
+
+.eightlogo:hover {
+    cursor: pointer;
+}
+
+.eighttext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* Graduation */
+
+.graduation {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.graduation:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.graduation:hover .graduationlogo {
+    opacity: 1;
+}
+
+.graduationlogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(255, 0, 234);
+    width: clamp(9vh,180px,18vh);
+}
+
+.graduationlogo:hover {
+    cursor: pointer;
+}
+
+.graduationtext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* Late Orchestration */
+
+.graduation {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.graduation:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.graduation:hover .graduationlogo {
+    opacity: 1;
+}
+
+.graduationlogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(255, 0, 234);
+    width: clamp(9vh,180px,18vh);
+}
+
+.graduationlogo:hover {
+    cursor: pointer;
+}
+
+.graduationtext {
     display: flex;
     margin: 7px;
     text-align: center;
