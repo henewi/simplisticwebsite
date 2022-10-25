@@ -1,0 +1,47 @@
+@font-face {
+    font-family: code;
+    src: url(../font/CONSOLA.TTF);
+}
+
+:root {
+    background-color: black;
+    font-family: code;
+}
+
+.albums {
+    color: white;
+    background-color: none;
+    font-size: clamp(2vh,1rem,4vh);
+}
+
+/* albums section */ 
+
+/* donda */
+.donda {
+    font-family: code;
+}
+
+/* mbdtf */
+
+.my {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.my:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.my:hover .mylogo {
+    opacity: 1;
+}
+
+.mylogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    width: clamp(2vh,200px,90vh);
+}
