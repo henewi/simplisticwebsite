@@ -16,19 +16,18 @@
 
 /* albums section */ 
 
-/* donda */
-.donda {
-    font-family: code;
-}
-
 /* mbdtf */
 
 .my {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     transition: all 0.2s ease-in;
+    width: clamp(2vh,200px,90vh);
 }
 
 .my:hover {
@@ -44,4 +43,15 @@
     transition: all 0.2s ease-in;
     position: absolute;
     width: clamp(2vh,200px,90vh);
+    box-shadow: 0px 0px 50px rgb(255, 0, 43);
+}
+
+.mylogo:hover {
+    cursor: pointer;
+}
+
+.mytext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
 }
