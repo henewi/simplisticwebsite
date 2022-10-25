@@ -7,6 +7,14 @@
     background-color: black;
     font-family: code;
 }
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
 
 .albums {
     color: white;
@@ -49,7 +57,8 @@
     transition: all 0.2s ease-in;
     position: absolute;
     width: clamp(10vh,200px,20vh);
-    box-shadow: 0px 0px 50px rgb(255, 0, 43);
+    box-shadow: 0px 0px 50px rgba(255, 0, 43, 0.596);
+    border-radius: 5%;
 }
 
 .mylogo:hover {
@@ -82,8 +91,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(201, 201, 201);
+    box-shadow: 0px 0px 50px rgba(201, 201, 201, 0.39);
     width: clamp(9.5vh,190px,19vh);
+    border-radius: 5%;
 }
 
 .eightlogo:hover {
@@ -116,8 +126,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(255, 0, 234);
+    box-shadow: 0px 0px 50px rgba(255, 0, 234, 0.397);
     width: clamp(9vh,180px,18vh);
+    border-radius: 5%;
 }
 
 .graduationlogo:hover {
@@ -150,8 +161,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(122, 31, 77);
+    box-shadow: 0px 0px 50px rgba(122, 31, 76, 0.637);
     width: clamp(8.5vh,170px,17.5vh);
+    border-radius: 5%;
 }
 
 .lateologo:hover {
@@ -184,8 +196,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(114, 114, 114);
+    box-shadow: 0px 0px 50px rgba(114, 114, 114, 0.452);
     width: clamp(8vh,160px,17vh);
+    border-radius: 5%;
 }
 
 .laterlogo:hover {
@@ -218,8 +231,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(247, 189, 0);
+    box-shadow: 0px 0px 50px rgba(255, 196, 0, 0.24);
     width: clamp(7.5vh,150px,16.5vh);
+    border-radius: 5%;
 }
 
 .theclogo:hover {
@@ -252,8 +266,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(255, 229, 145);
+    box-shadow: 0px 0px 50px rgba(255, 229, 145, 0.363);
     width: clamp(10.5vh,210px,20.5vh);
+    border-radius: 5%;
 }
 
 .watchlogo:hover {
@@ -286,8 +301,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(255, 72, 0);
+    box-shadow: 0px 0px 50px rgba(255, 72, 0, 0.726);
     width: clamp(11vh,220px,21vh);
+    border-radius: 5%;
 }
 
 .yeezuslogo:hover {
@@ -320,8 +336,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(255, 72, 0);
+    box-shadow: 0px 0px 50px rgba(255, 72, 0, 0.562);
     width: clamp(11.5vh,230px,21.5vh);
+    border-radius: 5%;
 }
 
 .thellogo:hover {
@@ -354,8 +371,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(0, 23, 97);
+    box-shadow: 0px 0px 50px rgba(0, 23, 97, 0.753);
     width: clamp(12vh,240px,22vh);
+    border-radius: 5%;
 }
 
 .yelogo:hover {
@@ -390,6 +408,7 @@
     position: absolute;
     box-shadow: 0px 0px 50px rgb(0, 23, 97);
     width: clamp(12vh,240px,22vh);
+    border-radius: 5%;
 }
 
 .kidslogo:hover {
@@ -422,8 +441,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(0, 4, 255);
+    box-shadow: 0px 0px 50px rgba(0, 4, 255, 0.445);
     width: clamp(12vh,240px,22vh);
+    border-radius: 5%;
 }
 
 .jesuslogo:hover {
@@ -456,8 +476,9 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(124, 124, 124);
+    box-shadow: 0px 0px 50px rgba(124, 124, 124, 0.493);
     width: clamp(12vh,240px,22vh);
+    border-radius: 5%;
 }
 
 .dondalogo:hover {
