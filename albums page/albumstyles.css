@@ -20,8 +20,8 @@
 
 .my {
     position: absolute;
-    top: 50%;
-    left: 45%;
+    top: 49%;
+    left: 46%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@
 .eight {
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 28%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +180,7 @@
 
 .later {
     position: absolute;
-    top: 78%;
+    top: 70%;
     left: 33%;
     display: flex;
     align-items: center;
@@ -220,8 +220,8 @@
 
 .thec {
     position: absolute;
-    top: 35%;
-    left: 80%;
+    top: 42%;
+    left: 82%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -260,7 +260,7 @@
 
 .watch {
     position: absolute;
-    top: 60%;
+    top: 52%;
     left: 10%;
     display: flex;
     align-items: center;
@@ -300,8 +300,8 @@
 
 .yeezus {
     position: absolute;
-    top: 10%;
-    left: 85%;
+    top: 14%;
+    left: 83%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -451,6 +451,86 @@
 }
 
 .kidstext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* JESUS IS KING */
+
+.jesus {
+    position: absolute;
+    top: 82%;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.jesus:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.jesus:hover .jesuslogo {
+    opacity: 1;
+}
+
+.jesuslogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(0, 4, 255);
+    width: clamp(12vh,240px,22vh);
+}
+
+.jesuslogo:hover {
+    cursor: pointer;
+}
+
+.jesustext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* Donda */
+
+.donda {
+    position: absolute;
+    top: 17%;
+    left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.donda:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.donda:hover .dondalogo {
+    opacity: 1;
+}
+
+.dondalogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(124, 124, 124);
+    width: clamp(12vh,240px,22vh);
+}
+
+.dondalogo:hover {
+    cursor: pointer;
+}
+
+.dondatext {
     display: flex;
     margin: 7px;
     text-align: center;
