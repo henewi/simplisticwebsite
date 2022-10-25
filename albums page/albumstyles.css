@@ -13,13 +13,14 @@
 
 .visible {
     opacity: 1;
-    transition: opacity 1s ease-out;
+    transition: opacity 2s ease-out;
 }
 
 .albums {
     color: white;
     background-color: none;
     font-size: clamp(2vh,1.2rem,4vh);
+    margin: 10px;
 }
 
 .text {
