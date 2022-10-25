@@ -21,7 +21,7 @@
 .my {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,8 +140,8 @@
 
 .lateo {
     position: absolute;
-    top: 70%;
-    left: 74%;
+    top: 75%;
+    left: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,8 +180,8 @@
 
 .later {
     position: absolute;
-    top: 80%;
-    left: 24%;
+    top: 78%;
+    left: 33%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -291,6 +291,166 @@
 }
 
 .watchtext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* Yeezus */
+
+.yeezus {
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.yeezus:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.yeezus:hover .yeezuslogo {
+    opacity: 1;
+}
+
+.yeezuslogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(255, 72, 0);
+    width: clamp(11vh,220px,21vh);
+}
+
+.yeezuslogo:hover {
+    cursor: pointer;
+}
+
+.yeezustext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* The life of Pablo */
+
+.thel {
+    position: absolute;
+    top: 82%;
+    left: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.thel:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.thel:hover .thellogo {
+    opacity: 1;
+}
+
+.thellogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(255, 72, 0);
+    width: clamp(11.5vh,230px,21.5vh);
+}
+
+.thellogo:hover {
+    cursor: pointer;
+}
+
+.theltext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* ye */
+
+.ye {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.ye:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.ye:hover .yelogo {
+    opacity: 1;
+}
+
+.yelogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(0, 23, 97);
+    width: clamp(12vh,240px,22vh);
+}
+
+.yelogo:hover {
+    cursor: pointer;
+}
+
+.yetext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* KIDS SEE GHOSTS */
+
+.kids {
+    position: absolute;
+    top: 58%;
+    left: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.kids:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.kids:hover .kidslogo {
+    opacity: 1;
+}
+
+.kidslogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(0, 23, 97);
+    width: clamp(12vh,240px,22vh);
+}
+
+.kidslogo:hover {
+    cursor: pointer;
+}
+
+.kidstext {
     display: flex;
     margin: 7px;
     text-align: center;
