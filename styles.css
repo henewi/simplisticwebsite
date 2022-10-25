@@ -1,5 +1,10 @@
 @font-face {
-    font-family: lovely;
+    font-family: gothic;
+    src: url(./font/Seagram\ tfb.ttf);
+}
+
+@font-face {
+    font-family: code;
     src: url(./font/CONSOLA.TTF);
 }
 
@@ -23,7 +28,7 @@
 body {
     background-color: var(--color-base-bg);
     padding: 10px;
-    font-family: lovely;
+    font-family: code;
 }
 
 .container {
@@ -41,7 +46,7 @@ p {
     border: none;
     font-size: 2.8rem;
     padding: none;
-    font-family: lovely;
+    font-family: gothic;
     position: absolute;
     left: 77%;
     top: 20%;
