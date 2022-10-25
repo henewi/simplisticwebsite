@@ -44,7 +44,7 @@ p {
 .theme-toggle {
     background-color: var(--color-btn-bg);
     border: none;
-    font-size: 2.8rem;
+    font-size: 10vh;
     padding: none;
     font-family: gothic;
     position: absolute;
@@ -60,6 +60,7 @@ p {
     background-color: none;
     color: white;
     position: absolute;
+    font-size: clamp(2vh,1rem,4vh);
     top: 15vh;
     left: 17vw;
 }
@@ -68,6 +69,7 @@ p {
     background-color: none;
     color: white;
     position: absolute;
+    font-size: clamp(2vh,1rem,4vh);
     top: 45vh;
     left: 30vw;
 }
@@ -76,6 +78,17 @@ p {
     background-color: none;
     color: white;
     position: absolute;
+    font-size: clamp(2vh,1rem,4vh);
     top: 75vh;
     left: 43vw;
+}
+
+.box1:hover {
+    cursor: pointer;
+}
+.box2:hover {
+    cursor: pointer;
+}
+.box3:hover {
+    cursor: pointer;
 }
