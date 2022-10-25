@@ -162,7 +162,7 @@
     opacity: 0;
     transition: all 0.2s ease-in;
     position: absolute;
-    box-shadow: 0px 0px 50px rgb(185, 105, 0);
+    box-shadow: 0px 0px 50px rgb(122, 31, 77);
     width: clamp(8.5vh,170px,17.5vh);
 }
 
@@ -171,6 +171,46 @@
 }
 
 .lateotext {
+    display: flex;
+    margin: 7px;
+    text-align: center;
+}
+
+/* Late Registration */
+
+.later {
+    position: absolute;
+    top: 80%;
+    left: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in;
+    width: clamp(16vh,200px,20vh);
+}
+
+.later:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.later:hover .laterlogo {
+    opacity: 1;
+}
+
+.laterlogo {
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    box-shadow: 0px 0px 50px rgb(114, 114, 114);
+    width: clamp(8vh,160px,17vh);
+}
+
+.laterlogo:hover {
+    cursor: pointer;
+}
+
+.latertext {
     display: flex;
     margin: 7px;
     text-align: center;
