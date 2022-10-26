@@ -8,6 +8,11 @@
     src: url(./font/CONSOLA.TTF);
 }
 
+body {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
 body,
 html {
     width: 100vw;
