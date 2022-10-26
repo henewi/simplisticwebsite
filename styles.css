@@ -29,6 +29,7 @@ html {
     font-size: 3.5rem;
     color: white;
     mix-blend-mode: difference;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
 }
 
 .mode-tog.active {
