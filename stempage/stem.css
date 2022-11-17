@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 2s ease-out;
+}
+
+
 body {
     display: flex;
     justify-content: center;
